@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../layout/header";
-import HomeBanner from "../components/home/HomeBanner";
+import HomeBanner from "../components/home/homeBanner";
 import HousesDisplay from "../components/home/housesDisplay";
 import Footer from "../layout/footer";
 

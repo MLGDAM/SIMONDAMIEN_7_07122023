@@ -15,9 +15,8 @@ function HouseCards() {
   );
   console.log(house);
 
-  const equipement = house.equipments.map((equipement) => (
-    <li key={equipement.id}>{equipement}</li>
-  ));
+ 
+  
   if (!house) {
     // si on ne trouve pas , on renvoi la page erreur
     return <Error404 />;
@@ -56,13 +55,15 @@ function HouseCards() {
 
         <article className="housing_collapses">
           <div className="housing_collapses_container">
-            <Collapse title="Description" description={house.description} />
+            <Collapse title="Description" content={house.description} />
           </div>
           <div className="housing_collapses_container">
-            <Collapse
-              key={house.equipments}
-              title="Equipements"
-              description={<ul key={house.equipments}>{equipement}</ul>}
+            <Collapse title="Équipements"
+              content={house.equipments.map((equipment, i) => (
+                <ul key={i}>
+                  <li>{equipment}</li>
+                </ul>
+              ))}
             />
           </div>
         </article>

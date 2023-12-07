@@ -2,7 +2,7 @@ import { useState } from "react"; //nous importons le Hook useState depuis React
 import "../styles/sass/collapse.scss";
 import chevrondrop from "../images/chevrondrop.png";
 
-function Collapse(props, house) {
+function Collapse(props) {
   const [isOpen, setOpen] = useState(false); // variable d'état en appelant useState qui renvoie la paire de valeur
   // Nous l’initialisons à FALSE en passant FALSE comme seul argument à useState
   // Le second élément renvoyé est une fonction. Elle nous permet de modifier la variable isExpanded, nous l’appellerons donc setExpanded.
@@ -25,10 +25,10 @@ function Collapse(props, house) {
         </button>
       </div>
       {isOpen && (
-        <div className="collapsibles_content" key={props.description}>
-          {props.description}
+        <div className="collapsibles_content" key={props.content}>
+          {props.content} 
         </div>
-      )}
+       )}
     </div>
   );
 }
