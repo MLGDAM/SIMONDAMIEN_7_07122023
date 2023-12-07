@@ -1,5 +1,5 @@
-import React from 'react';
-import  "../../styles/sass/about.scss"
+import React from "react";
+import "../../styles/sass/about.scss";
 import Collapse from "../../layout/collapse";
 
 // Création d'un tableau d'objets
@@ -30,11 +30,11 @@ const aboutContents = [
   },
 ];
 
-function AboutContents () {
+function AboutContents() {
   return (
     <div className="about">
       {aboutContents.map((content) => (
-        <Collapse  // collapse récupère 3props 
+        <Collapse // collapse récupère 3props
           key={content.id}
           title={content.title}
           description={content.description}
@@ -42,6 +42,6 @@ function AboutContents () {
       ))}
     </div>
   );
-};
+}
 
 export default AboutContents;

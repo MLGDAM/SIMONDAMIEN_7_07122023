@@ -58,25 +58,21 @@
           border-radius: 30px;
           object-fit: cover;
         }
-        
       }
 
       &_rating {
         margin-top: 5px;
         text-align: right;
         &_star {
-            padding-left: 0.3rem;
-            font-size: 25px;
-            &_grey {
-                color: rgb(188, 186, 186);
-            }
+          padding-left: 0.3rem;
+          font-size: 25px;
+          &_grey {
+            color: rgb(188, 186, 186);
+          }
         }
-    }
-     
+      }
     }
   }
-
-  
 
   &_collapses {
     display: flex;
@@ -124,24 +120,17 @@
             margin-bottom: 0;
             font-size: 12px;
           }
-          &_img{
+          &_img {
             width: 32px;
             height: 32px;
-            padding-right: 2px
+            padding-right: 2px;
           }
         }
 
         &_rating {
           padding: 0 8px 2px 0;
-          
         }
       }
     }
   }
 }
-
- 
-
- 
- 
- 

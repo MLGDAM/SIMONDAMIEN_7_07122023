@@ -1,16 +1,14 @@
-
 .error {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 57vh;
-    color: #FF6060;
-     position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 57vh;
+  color: #ff6060;
+  position: relative;
 
-
-&_Number {
+  &_Number {
     font-size: 263px;
     font-weight: 700;
     width: 597px;
@@ -21,28 +19,25 @@
       height: 99px;
       margin-bottom: 122px;
     }
- }
-   
-    
-&_Text{
+  }
+
+  &_Text {
     font-size: 36px;
-margin-top: 500px;
-  height: 51px;
-  position: absolute;
-  @media screen and (max-width: 768px) {
+    margin-top: 500px;
+    height: 51px;
+    position: absolute;
+    @media screen and (max-width: 768px) {
       font-size: 18px;
       width: 260px;
       margin-bottom: 360px;
-      
+    }
   }
- 
-}
 
-&_Link{
+  &_Link {
     font-size: 18px;
     position: absolute;
     margin-top: 700px;
-    color : #FF6060;
+    color: #ff6060;
     text-decoration: underline;
     @media screen and (max-width: 768px) {
       font-size: 14px;
@@ -50,9 +45,8 @@ margin-top: 500px;
       width: 221px;
       height: 20px;
     }
-   
- }
-&_Link:hover {
+  }
+  &_Link:hover {
     filter: brightness(0.95);
- }
+  }
 }
