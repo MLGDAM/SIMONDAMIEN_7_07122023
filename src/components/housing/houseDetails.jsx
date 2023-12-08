@@ -9,11 +9,10 @@ import "../../styles/sass/housedetail.scss";
 
 function HouseCards() {
   const idHouse = useParams(); // récupère l'id du logement
-  console.log(idHouse);
   const house = House.find(
     (accomodation) => accomodation.id === idHouse.id // récupère l'objet en fonction de l'ID
   );
-  console.log(house);
+  
 
   if (!house) {
     // si on ne trouve pas , on renvoi la page erreur

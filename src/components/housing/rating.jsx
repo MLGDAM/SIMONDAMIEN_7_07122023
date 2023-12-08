@@ -6,7 +6,6 @@ import StarInactive from "../../images/starinactive.png";
 // Props : rating (note de 1 à 5)
 function Rating({ rating }) {
   const stars = []; // Creer un tableau pour stocker les étoiles
-  console.log(stars);
   for (let i = 1; i <= 5; i++) {
     // Boucle pour afficher les étoiles
     if (i <= rating) {
