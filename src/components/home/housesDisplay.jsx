@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "./Card";
-import logements from "../../datas/Logements";
+import Card from "../home/Card";
+import logements from "../../datas/logements";
 import "../../styles/sass/card.scss";
 
 // Nous pouvons mapper le tableau des datas de logements pour l'afficher le composant Card

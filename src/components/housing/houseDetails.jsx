@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import House from "../../datas/Logements";
-import Error404 from "../../components/error/Error";
+import House from "../../datas/logements";
+import Error404 from "../../pages/Error";
 import Collapse from "../../layout/Collapse";
 import Slideshow from "../../layout/Slideshow";
 import Rating from "../../components/housing/Rating";

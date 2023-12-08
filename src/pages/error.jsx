@@ -1,4 +1,4 @@
-import Error from "../components/error/Error";
+import Error from "../components/error/Errors";
 import Header from "../layout/Header";
 
 function ErrorPage() {

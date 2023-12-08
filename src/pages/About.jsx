@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../layout/Header";
-import AboutBanner from "../components/about/AboutBanner";
+import AboutBanner from "../components/about/AboutBanners";
 import AboutContents from "../components/about/AboutContents";
 import Footer from "../layout/Footer";
 
