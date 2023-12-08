@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../../styles/sass/error404.scss";
 
-export default function ErrorPage() {
+function Error() {
   return (
     <div className="error">
       <p className="error_Number">404</p>
@@ -14,3 +14,4 @@ export default function ErrorPage() {
     </div>
   );
 }
+export default Error;

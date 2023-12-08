@@ -1,8 +1,7 @@
 import React from "react";
 import "../../styles/sass/card.scss";
-import PropTypes from "prop-types";
 
-const Card = ({ id, title, cover }) => {
+function Card ({ id, title, cover })  {
   // Ce composant récupère 3 props :  id, title, cover
   return (
     <li key={id} className="card">
@@ -18,9 +17,4 @@ const Card = ({ id, title, cover }) => {
   );
 };
 
-Card.propTypes = {
-  id: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  cover: PropTypes.string.isRequired,
-};
 export default Card;

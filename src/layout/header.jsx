@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import "../styles/sass/header.scss";
 import logo from "../assets/logo.svg";
 
-function header() {
+function Header() {
   return (
     <nav className="navBar">
       <div className="navBar_logo">
@@ -19,4 +19,4 @@ function header() {
   );
 }
 
-export default header;
+export default Header;

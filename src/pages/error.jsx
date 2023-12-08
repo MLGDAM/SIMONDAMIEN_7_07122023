@@ -1,7 +1,7 @@
-import Error from "../components/error/error";
-import Header from "../layout/header";
+import Error from "../components/error/Error";
+import Header from "../layout/Header";
 
-export default function error() {
+function ErrorPage() {
   return (
     <>
       <Header />
@@ -9,3 +9,4 @@ export default function error() {
     </>
   );
 }
+export default ErrorPage;

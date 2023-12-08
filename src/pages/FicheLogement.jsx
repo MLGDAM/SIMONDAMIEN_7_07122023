@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../layout/header";
-import House from "../components/housing/houseDetails";
-import Footer from "../layout/footer";
+import Header from "../layout/Header";
+import House from "../components/housing/HouseDetails";
+import Footer from "../layout/Footer";
 
 function HouseCards() {
   return (

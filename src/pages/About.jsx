@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "../layout/header";
-import AboutBanner from "../components/about/aboutBanner";
-import AboutContents from "../components/about/aboutContents";
-import Footer from "../layout/footer";
+import Header from "../layout/Header";
+import AboutBanner from "../components/about/AboutBanner";
+import AboutContents from "../components/about/AboutContents";
+import Footer from "../layout/Footer";
 
 function About() {
   return (

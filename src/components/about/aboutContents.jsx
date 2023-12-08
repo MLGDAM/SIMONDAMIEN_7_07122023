@@ -1,6 +1,6 @@
 import React from 'react';
 import  "../../styles/sass/about.scss"
-import Collapse from "../../layout/collapse";
+import Collapse from "../../layout/Collapse";
 
 function AboutContent  ()  {
   return(

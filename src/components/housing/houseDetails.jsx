@@ -1,10 +1,10 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import House from "../../datas/logements";
-import Error404 from "../../components/error/error";
-import Collapse from "../../layout/collapse";
-import Slideshow from "../../layout/slideshow";
-import Rating from "../../components/housing/rating";
+import House from "../../datas/Logements";
+import Error404 from "../../components/error/Error";
+import Collapse from "../../layout/Collapse";
+import Slideshow from "../../layout/Slideshow";
+import Rating from "../../components/housing/Rating";
 import "../../styles/sass/housedetail.scss";
 
 function HouseCards() {
@@ -15,8 +15,6 @@ function HouseCards() {
   );
   console.log(house);
 
- 
-  
   if (!house) {
     // si on ne trouve pas , on renvoi la page erreur
     return <Error404 />;

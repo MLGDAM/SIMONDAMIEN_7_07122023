@@ -1,8 +1,8 @@
 import React from "react";
-import Banner from "../../layout/banner";
+import Banner from "../../layout/Banner";
 import homeBanner from "../../images/banner.png";
 
-const HomeBanner = () => {
+function HomeBanner ()  {
   return <Banner title="Chez vous, partout et ailleurs" src={homeBanner} />;
 };
 
