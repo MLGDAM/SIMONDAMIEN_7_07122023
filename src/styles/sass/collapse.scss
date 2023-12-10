@@ -1,0 +1,56 @@
+.collapsibles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 20px;
+  font-size: 24px;
+
+  &_container {
+    background: #ff5656;
+    width: 93%;
+    height: 47px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    color: white;
+    margin-top: 20px;
+    @media screen and (max-width: 768px) {
+      width: 88%;
+      height: 30px;
+    }
+
+    &_button {
+      border: none;
+      display: inline-block;
+      padding: 5px;
+      background-color: rgba(255, 255, 255, 0);
+      cursor: pointer;
+      rotate: 135deg;
+    }
+  }
+
+  &_content {
+    background-color: #f0f0f0;
+    padding: 17px;
+    color: #ff5656;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    border-radius: 5px;
+    width: 93%;
+    @media screen and (max-width: 768px) {
+      width: 88%;
+    }
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
